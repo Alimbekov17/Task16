@@ -1,0 +1,11 @@
+package animal;
+
+public class Shark extends Animal{
+    public Shark(String name) {
+        super(name);
+    }
+
+    public void attack(){
+        System.out.println(getName() + " attacks quickly and is very dangerous.");
+    }
+}
